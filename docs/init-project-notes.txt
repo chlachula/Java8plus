@@ -1,0 +1,11 @@
+In IntelliJ
+1. File/New/Project...Maven
+2. File/Project Structure/Modules...Sources...Language Level: 8
+
+cd to directory
+echo "# Java8plus" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/chlachula/Java8plus.git
+git push -u origin master
